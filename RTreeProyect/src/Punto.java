@@ -14,6 +14,12 @@ public class Punto {
 		cantCreados++;
 	}
 	
+	public Punto(double x, double y, int idRec) {
+		coordx=x;
+		coordy=y;
+		id=idRec;
+	}
+	
 	public double getCoordx() {
 		return coordx;
 	}
@@ -25,5 +31,12 @@ public class Punto {
 	public int getId() {
 		return id;
 	}
-
+	
+	public void setCoordx(double coordx) {
+		this.coordx = coordx;
+	}
+	
+	public void setCoordy(double coordy) {
+		this.coordy = coordy;
+	}
 }
